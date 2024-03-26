@@ -12,7 +12,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDto {
-    private Long id;
     private String firstName;
     private String lastName;
     private String gender;
@@ -21,5 +20,4 @@ public class UserDto {
     private String city;
     private String phoneNumber;
     private String alternatePhoneNumber;
-    private String status;
 }
